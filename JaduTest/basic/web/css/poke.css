@@ -1,0 +1,82 @@
+<style type="text/css">
+
+
+
+ #searchDiv {
+    width: 95%;
+    height:40px;
+    font-size: 20px;
+    float: right;
+    text-align: center;
+}
+
+
+#pokeList {
+
+    float: left;
+    height: 75%;
+    position: relative;
+    overflow: auto;
+
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+
+ .pokeLink {
+    background-color: #4CAF50;
+  border: 1px solid green; 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  width: 100%; 
+  display: block; 
+  margin: 2px; 
+text-align: center
+
+}
+
+ .pokeDetail {
+    width:100%;
+    text-align: center;
+    
+
+}
+.body-content{
+    width: 15%;
+    height:15%;
+    min-height: 150px;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top:10%;
+
+}
+div #image{
+    width: 15%;
+    height:15%;
+    min-height: 150px;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
+
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+</style>
