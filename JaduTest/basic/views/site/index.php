@@ -36,23 +36,23 @@ $this->title = 'Pokédex';
     <h3>List of Pokemons</h3>
 
     <!--Div containing list of all the pokemons  -->
-    <div id="pokeList" class="btn-group">
+        <div id="pokeList" class="btn-group">
     
-    <?php
+         <?php
         //$count stores the json encode value of count node.
         $count = json_encode($pokeList['count']); 
         
         //Loops through the array for number of count times
         for($i =0; $i < $count; $i++)
 
-        {
+            {
             // <a> tag is created for every name of the node.
             echo "<a class='pokeLink uppercase' id='pokeAnchor' onclick='myAjax(".json_encode($pokeList['results'][$i]['name']).")''>".($pokeList['results'][$i]['name'])."</a>";
-        }
-    ?>
+            }
+        ?>
 
 
-    </div>
+        </div>
     </div>
 
 
